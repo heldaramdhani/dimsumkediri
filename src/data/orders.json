@@ -1,0 +1,146 @@
+[
+  {
+    "id": "DS-4245",
+    "customer": {
+      "name": "heldaaa",
+      "phone": "085853184933",
+      "address": "ringinanom"
+    },
+    "items": [
+      {
+        "id": "1",
+        "name": "Dimsum Original",
+        "price": 15000,
+        "image": "/images/orisaus.jpg",
+        "quantity": 7
+      }
+    ],
+    "total": 105000,
+    "date": "16/2/2026, 15.15.18"
+  },
+  {
+    "id": "DS-1941",
+    "customer": {
+      "name": "helda",
+      "phone": "085853184933",
+      "address": "ringinanom"
+    },
+    "items": [
+      {
+        "id": "3",
+        "name": "Dimsum",
+        "price": 150000,
+        "image": "/images/oridimsum.jpg",
+        "quantity": 1
+      }
+    ],
+    "total": 150000,
+    "date": "16/2/2026, 15.19.01"
+  },
+  {
+    "id": "DS-4250",
+    "customer": {
+      "name": "helda",
+      "phone": "08526352653",
+      "address": "hghsghds"
+    },
+    "items": [
+      {
+        "id": "2",
+        "name": "Dimsum Keju Lumer",
+        "price": 20000,
+        "image": "/images/keju.jpg",
+        "quantity": 2
+      },
+      {
+        "id": "3",
+        "name": "Dimsum",
+        "price": 150000,
+        "image": "/images/oridimsum.jpg",
+        "quantity": 1
+      }
+    ],
+    "total": 190000,
+    "date": "16/2/2026, 15.22.31"
+  },
+  {
+    "id": "DS-1286",
+    "customer": {
+      "name": "heldaa",
+      "phone": "098675784",
+      "address": "bhhd"
+    },
+    "items": [
+      {
+        "id": "12",
+        "name": "Brownies ChocoBerrie",
+        "price": 10000,
+        "image": "/images/brownies.jpg",
+        "quantity": 1
+      },
+      {
+        "id": "13",
+        "name": "Puding Caramell",
+        "price": 10000,
+        "image": "/images/caramel.jpg",
+        "quantity": 1
+      },
+      {
+        "id": "10",
+        "name": "Lemon Tea",
+        "price": 10000,
+        "image": "/images/lemon.jpg",
+        "quantity": 1
+      }
+    ],
+    "total": 30000,
+    "date": "16/2/2026, 15.26.27"
+  },
+  {
+    "id": "DS-3325",
+    "customer": {
+      "name": "helda",
+      "phone": "085853184933",
+      "address": "ringinanom"
+    },
+    "items": [
+      {
+        "id": "15",
+        "name": "Choco Frapucino",
+        "price": 75000,
+        "image": "/images/chocofrap.jpg",
+        "quantity": 1
+      },
+      {
+        "id": "14",
+        "name": "Churros",
+        "price": 10000,
+        "image": "/images/churros.jpg",
+        "quantity": 1
+      },
+      {
+        "id": "16",
+        "name": "Ice Cream",
+        "price": 75000,
+        "image": "/images/icecream.jpg",
+        "quantity": 1
+      },
+      {
+        "id": "11",
+        "name": "Japanese Cake Roll",
+        "price": 10000,
+        "image": "/images/cakeroll.jpg",
+        "quantity": 1
+      },
+      {
+        "id": "12",
+        "name": "Brownies ChocoBerrie",
+        "price": 10000,
+        "image": "/images/brownies.jpg",
+        "quantity": 1
+      }
+    ],
+    "total": 180000,
+    "date": "16/2/2026, 15.27.31"
+  }
+]
