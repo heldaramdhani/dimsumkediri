@@ -8,7 +8,7 @@ import ProductCard from "@/components/ProductCard";
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Cell } from "recharts";
 
 const products = [
-    { id: "1", name: "Dimsum Goreng Original", price: 18000, image: "/images/orisaus.jpg", isBestSeller: true, category: "Makanan", description: "Dimsum ayam premium dengan balutan kulit crispy keemasan." },
+    { id: "1", name: "Dimsum Goreng Original", price: 180000, image: "/images/orisaus.jpg", isBestSeller: true, category: "Makanan", description: "Dimsum ayam premium dengan balutan kulit crispy keemasan." },
     { id: "2", name: "Dimsum Goreng Keju Lumer", price: 20000, image: "/images/keju.jpg", isBestSeller: true, category: "Makanan", description: "Dimsum goreng dengan isian keju meleleh yang creamy." },
     { id: "3", name: "Dimsum Original (Steam)", price: 15000, image: "/images/oridimsum.jpg", isBestSeller: false, category: "Makanan", description: "Dimsum kukus lembut dengan rasa ayam gurih autentik." },
     { id: "4", name: "Dimsum Mentai", price: 20000, image: "/images/mentai.jpg", isBestSeller: false, category: "Makanan", description: "Dimsum dengan topping saus mentai creamy, gurih dan sedikit smoky." },
