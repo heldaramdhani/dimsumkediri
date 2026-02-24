@@ -8,7 +8,7 @@ import { Plus, Minus, HelpCircle } from "lucide-react";
 
 const faqs = [
     {
-        question: "Apakah dimsumkediri halal?",
+        question: "Apakah GoldenCrumbs halal?",
         answer: "Ya, 100% halal. Kami sangat menjaga kualitas bahan baku kami. Seluruh bahan daging dan bumbu yang kami gunakan telah bersertifikat halal."
     },
     {
@@ -28,8 +28,8 @@ const faqs = [
         answer: "Tentu saja! Kami sering melayani pesanan untuk acara pernikahan, ulang tahun, dan gathering kantor. Silakan hubungi admin kami minimal H-3 untuk pemesanan dalam jumlah besar."
     },
     {
-        question: "Di mana lokasi kedai dimsumkediri?",
-        answer: "Kedai pusat kami berlokasi di Jl. Mayor Bismo No. 12, Kediri. Lokasi kami sangat strategis dan mudah ditemukan di Google Maps dengan kata kunci 'dimsumkediri'."
+        question: "Di mana lokasi kedai GoldenCrumbs?",
+        answer: "Kedai pusat kami berlokasi di Jalan Panglima Sudirman Kelurahan Ringin Anom Kota Kediri. Lokasi kami sangat strategis dan mudah ditemukan di <a href='https://www.google.com/maps/search/Jalan+Panglima+Sudirman+Kelurahan+Ringin+Anom+Kota+Kediri' target='_blank' rel='noopener noreferrer' class='text-primary hover:underline font-bold'>Google Maps</a> dengan kata kunci 'GoldenCrumbs'."
     }
 ];
 

@@ -85,13 +85,23 @@ export default function ContactPage() {
                                 <div className="p-8 bg-neutral rounded-[2rem] border border-primary/10 flex items-start gap-4">
                                     <MapPin className="text-primary mt-1 shrink-0" size={24} />
                                     <div>
-                                        <p className="font-bold text-lg mb-2">Kedai dimsumkediri Pusat</p>
-                                        <p className="text-dark/60 leading-relaxed mb-6">
-                                            Jl. Mayor Bismo No. 12, Kelurahan Semampir, Kota Kediri, Jawa Timur 64121
-                                        </p>
-                                        <button className="bg-primary text-white px-8 py-3 rounded-full font-bold shadow-lg shadow-primary/20 flex items-center gap-2">
+                                        <p className="font-bold text-lg mb-2">Kedai GoldenCrumbs Pusat</p>
+                                        <a
+                                            href="https://www.google.com/maps/search/Jalan+Panglima+Sudirman+Kelurahan+Ringin+Anom+Kota+Kediri"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="text-dark/60 leading-relaxed mb-6 block hover:text-primary transition-colors"
+                                        >
+                                            Jalan Panglima Sudirman Kelurahan Ringin Anom Kota Kediri
+                                        </a>
+                                        <a
+                                            href="https://www.google.com/maps/search/Jalan+Panglima+Sudirman+Kelurahan+Ringin+Anom+Kota+Kediri"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="bg-primary text-white px-8 py-3 rounded-full font-bold shadow-lg shadow-primary/20 flex items-center gap-2 w-fit"
+                                        >
                                             Petunjuk Lokasi (Google Maps)
-                                        </button>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -122,22 +132,18 @@ export default function ContactPage() {
                         </div>
 
                         {/* Interactive Map Placeholder */}
-                        <div className="h-full min-h-[500px] bg-white rounded-[3rem] shadow-2xl border border-primary/5 p-4 relative overflow-hidden">
-                            <div className="w-full h-full bg-primary/5 rounded-[2.5rem] flex flex-col items-center justify-center text-primary/40 relative">
-                                <MapPin size={64} className="mb-4 opacity-20" />
-                                <p className="font-bold text-xl mb-2">Interactive Map Kediri</p>
-                                <p className="text-sm">Klik untuk memuat Google Maps</p>
+                        <div className="h-full min-h-[500px] w-full bg-white rounded-[3rem] shadow-2xl border border-primary/5 p-4 relative overflow-hidden group">
+                            <iframe
+                                width="100%"
+                                height="100%"
+                                style={{ border: 0, borderRadius: "2.5rem" }}
+                                loading="lazy"
+                                allowFullScreen
+                                src="https://maps.google.com/maps?q=Jalan%20Panglima%20Sudirman%20Kelurahan%20Ringin%20Anom%20Kota%20Kediri&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                            ></iframe>
 
-                                {/* Decorative map elements */}
-                                <div className="absolute inset-0 opacity-10 pointer-events-none">
-                                    <div className="absolute top-1/4 left-1/4 w-32 h-1 bg-primary/20 rotate-45" />
-                                    <div className="absolute top-1/2 left-1/3 w-48 h-1 bg-primary/20 -rotate-12" />
-                                    <div className="absolute bottom-1/4 right-1/4 w-40 h-1 bg-primary/20 30" />
-                                </div>
-                            </div>
-
-                            {/* Quick Action Overlay */}
-                            <div className="absolute bottom-12 left-12 right-12 bg-white/90 backdrop-blur-md p-6 rounded-3xl shadow-2xl border border-primary/10">
+                            {/* Quick Action Overlay - Absolute positioned over the map */}
+                            <div className="absolute bottom-12 left-12 right-12 bg-white/90 backdrop-blur-md p-6 rounded-3xl shadow-2xl border border-primary/10 pointer-events-none">
                                 <p className="font-bold text-dark mb-1">Cari Kami Lebih Mudah</p>
                                 <p className="text-xs text-dark/60 mb-4">Berlokasi strategis di dekat pusat kota Kediri.</p>
                                 <div className="flex gap-4 justify-between">

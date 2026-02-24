@@ -15,7 +15,7 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "dimsumkediri | Premium Modern Local Dimsum",
+  title: "GoldenCrumbs | Premium Modern Local Dimsum",
   description: "Experience the premium taste of local Kediri dimsum with a modern twist. Cheese melt, best sellers, and more.",
 };
 

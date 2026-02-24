@@ -8,32 +8,34 @@ import ProductCard from "@/components/ProductCard";
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Cell } from "recharts";
 
 const products = [
-    { id: "1", name: "Dimsum Original", price: 15000, image: "/images/orisaus.jpg", isBestSeller: true, category: "Best Seller", tag: "Favorit" },
-    { id: "2", name: "Dimsum Keju Lumer", price: 20000, image: "/images/keju.jpg", isBestSeller: true, category: "Keju Lumer", tag: "Hot Item" },
-    { id: "3", name: "Dimsum", price: 150000, image: "/images/oridimsum.jpg", isBestSeller: false, category: "Menu Favorit", tag: "Premium" },
-    { id: "4", name: "Dimsum Mentai", price: 18000, image: "/images/mentai.jpg", isBestSeller: false, category: "Menu Favorit", tag: "Special" },
-    { id: "5", name: "Dimsum Mozzarella", price: 25000, image: "/images/mozza.jpg", isBestSeller: false, category: "Menu Favorit", tag: "Pedas" },
-    { id: "6", name: "Dimsum Kuah Pedas", price: 20000, image: "/images/dimkuah.jpg", isBestSeller: false, category: "Best Seller", tag: "Premium" },
-    { id: "7", name: "Air Mineral", price: 10000, image: "/images/air.jpg", isBestSeller: true, category: "Keju Lumer", tag: "Cheesy" },
-    { id: "9", name: "Es Teh", price: 10000, image: "/images/esteh.jpg", isBestSeller: false, category: "Menu Favorit", tag: "Hemat" },
-    { id: "10", name: "Lemon Tea", price: 10000, image: "/images/lemon.jpg", isBestSeller: false, category: "Menu Favorit", tag: "Hemat" },
-    { id: "11", name: "Japanese Cake Roll", price: 10000, image: "/images/cakeroll.jpg", isBestSeller: false, category: "Menu Favorit", tag: "Hemat" },
-    { id: "12", name: "Brownies ChocoBerrie", price: 10000, image: "/images/brownies.jpg", isBestSeller: false, category: "Menu Favorit", tag: "Hemat" },
-    { id: "13", name: "Puding Caramell", price: 10000, image: "/images/caramel.jpg", isBestSeller: false, category: "Menu Favorit", tag: "Hemat" },
-    { id: "14", name: "Churros", price: 10000, image: "/images/churros.jpg", isBestSeller: false, category: "Menu Favorit", tag: "Hemat" },
-    { id: "15", name: "Choco Frapucino", price: 75000, image: "/images/chocofrap.jpg", isBestSeller: false, category: "Menu Favorit", tag: "Hemat" },
-    { id: "16", name: "Ice Cream", price: 75000, image: "/images/icecream.jpg", isBestSeller: false, category: "Menu Favorit", tag: "Hemat" },
+    { id: "1", name: "Dimsum Goreng Original", price: 18000, image: "/images/orisaus.jpg", isBestSeller: true, category: "Makanan", description: "Dimsum ayam premium dengan balutan kulit crispy keemasan." },
+    { id: "2", name: "Dimsum Goreng Keju Lumer", price: 20000, image: "/images/keju.jpg", isBestSeller: true, category: "Makanan", description: "Dimsum goreng dengan isian keju meleleh yang creamy." },
+    { id: "3", name: "Dimsum Original (Steam)", price: 15000, image: "/images/oridimsum.jpg", isBestSeller: false, category: "Makanan", description: "Dimsum kukus lembut dengan rasa ayam gurih autentik." },
+    { id: "4", name: "Dimsum Mentai", price: 20000, image: "/images/mentai.jpg", isBestSeller: false, category: "Makanan", description: "Dimsum dengan topping saus mentai creamy, gurih dan sedikit smoky." },
+    { id: "5", name: "Dimsum Mozzarella", price: 20000, image: "/images/mozza.jpg", isBestSeller: true, category: "Makanan", description: "Dimsum isi mozzarella yang stretch saat digigit." },
+    { id: "6", name: "Dimsum Kuah Pedas", price: 20000, image: "/images/dimkuah.jpg", isBestSeller: false, category: "Makanan", description: "Dimsum lembut disajikan dengan kuah pedas gurih yang hangat." },
+    { id: "7", name: "Air Putih", price: 7000, image: "/images/air.jpg", isBestSeller: false, category: "Minuman", description: "Air mineral segar yang menyempurnakan setiap santapan." },
+    { id: "8", name: "Ice Tea", price: 10000, image: "/images/esteh.jpg", isBestSeller: false, category: "Minuman", description: "Teh dingin menyegarkan dengan rasa manis yang pas dan ringan." },
+    { id: "9", name: "Teh Tarik", price: 12000, image: "/images/tarik.jpg", isBestSeller: false, category: "Minuman", description: "Teh creamy dengan busa lembut dan aroma khas yang hangat dan menenangkan." },
+    { id: "10", name: "Matcha Latte", price: 16000, image: "/images/matcha.jpg", isBestSeller: false, category: "Minuman", description: "Minuman matcha autentik dengan perpaduan susu yang creamy dan pas." },
+    { id: "11", name: "Lemon Tea", price: 12000, image: "/images/lemon.jpg", isBestSeller: false, category: "Minuman", description: "Perpaduan teh pilihan dengan sentuhan lemon segar yang asam-manis menyegarkan." },
+    { id: "12", name: "Japanese Cake Roll", price: 20000, image: "/images/cakeroll.jpg", isBestSeller: true, category: "Dessert", description: "Cake lembut dengan tekstur fluffy and isian krim manis yang ringan." },
+    { id: "13", name: "Brownies Chocoberrie", price: 20000, image: "/images/brownies.jpg", isBestSeller: false, category: "Dessert", description: "Brownies cokelat fudgy dipadukan topping cokelat dan sentuhan rasa berry yang manis-segar." },
+    { id: "14", name: "Pudding Caramel", price: 20000, image: "/images/caramel.jpg", isBestSeller: true, category: "Dessert", description: "Pudding lembut dengan lapisan saus karamel manis legit yang lumer di mulut." },
+    { id: "15", name: "Churros", price: 18000, image: "/images/churros.jpg", isBestSeller: false, category: "Dessert", description: "Churros renyah di luar, lembut di dalam, dengan balutan gula manis yang klasik." },
+    { id: "16", name: "Choco Frappuccino", price: 20000, image: "/images/chocofrap.jpg", isBestSeller: false, category: "Minuman", description: "Minuman cokelat dingin creamy dengan sensasi manis yang rich dan menyegarkan." },
+    { id: "17", name: "Ice Cream", price: 20000, image: "/images/icecream.jpg", isBestSeller: false, category: "Dessert", description: "Es krim lembut dan creamy dengan rasa manis yang memanjakan setiap sendokan." },
 ];
 
 const chartData = [
     { name: "Ayam Ori", value: 450, color: "#D97706" },
     { name: "Keju Lumer", value: 680, color: "#FBBF24" },
-    { name: "Udang Prem", value: 320, color: "#92400E" },
-    { name: "Mentai", value: 510, color: "#451A03" },
-    { name: "Kepiting", value: 280, color: "#D97706" },
+    { name: "Mozzarella", value: 320, color: "#92400E" },
+    { name: "Cake Roll", value: 410, color: "#F472B6" },
+    { name: "Pudding Caramel", value: 380, color: "#F59E0B" },
 ];
 
-const categories = ["Semua", "Best Seller", "Keju Lumer", "Menu Favorit"];
+const categories = ["Semua", "Makanan", "Minuman", "Dessert"];
 
 export default function ProductsPage() {
     const [activeCategory, setActiveCategory] = useState("Semua");
@@ -56,7 +58,7 @@ export default function ProductsPage() {
                         Menu <span className="text-primary italic">Kami</span>
                     </motion.h1>
                     <p className="text-xl text-dark/60 max-w-2xl mx-auto mb-12">
-                        Pilih varian dimsum favoritmu dan rasakan kelezatannya hari ini.
+                        Savory dimsum and sweet delights, crafted for your perfect bite.
                     </p>
 
                     <div className="flex flex-wrap justify-center gap-4 mb-16">
@@ -104,7 +106,7 @@ export default function ProductsPage() {
                         <div>
                             <h2 className="text-4xl font-serif font-bold mb-8">Paling Banyak Dicintai</h2>
                             <p className="text-lg text-dark/70 mb-8 leading-relaxed">
-                                Keju Lumer tetap menjadi juara di hati para pecinta dimsumkediri. Berikut adalah statistik penjualan mingguan kami yang membuktikan varian mana yang paling diburu!
+                                Keju Lumer tetap menjadi juara di hati para pecinta GoldenCrumbs. Berikut adalah statistik penjualan mingguan kami yang membuktikan varian mana yang paling diburu!
                             </p>
                             <div className="bg-white p-6 rounded-3xl shadow-sm space-y-4">
                                 <div className="flex items-center justify-between text-sm font-bold">

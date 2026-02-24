@@ -56,7 +56,7 @@ export default function CartModal({ isOpen, onClose }: CartModalProps) {
             weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'
         });
 
-        let message = `*NOTA PESANAN - DIMSUM KEDIRI*\n`;
+        let message = `*NOTA PESANAN - GOLDENCRUMBS*\n`;
         message += `------------------------------------------\n`;
         message += `*No. Pesanan:* ${id}\n`;
         message += `*Tanggal:* ${date}\n`;

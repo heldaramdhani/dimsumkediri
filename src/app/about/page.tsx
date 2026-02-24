@@ -42,7 +42,7 @@ export default function AboutPage() {
                         animate={{ opacity: 1, y: 0 }}
                         className="text-5xl md:text-7xl font-serif font-bold mb-6"
                     >
-                        Cerita <span className="text-primary">dimsunkediri</span>
+                        Cerita <span className="text-primary">GoldenCrumbs</span>
                     </motion.h1>
                     <motion.p
                         initial={{ opacity: 0, y: 20 }}
@@ -60,17 +60,22 @@ export default function AboutPage() {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
                         <div className="space-y-6">
                             <h2 className="text-3xl md:text-4xl font-serif font-bold text-dark">Awal Mula Perjalanan</h2>
-                            <p className="text-lg text-dark/70 leading-relaxed">
-                                Dimsum Kediri didirikan pada tahun 2023 dengan satu visi sederhana: membuat dimsum premium dapat dinikmati oleh semua kalangan tanpa harus mengorbankan kualitas bahan.
-                            </p>
-                            <p className="text-lg text-dark/70 leading-relaxed">
-                                Berawal dari kedai kecil di sudut kota, kami terus berinovasi menciptakan rasa yang unik, terutama varian keju lumer kami yang kini menjadi ikon kuliner baru di Kediri. Kami percaya bahwa makanan yang baik dibuat dengan cinta dan bahan-bahan yang jujur.
-                            </p>
+                            <div className="text-lg text-dark/70 leading-relaxed space-y-4">
+                                <p>
+                                    Berawal dari kecintaan pada cita rasa dimsum yang autentik, kedai ini lahir dengan satu tujuan sederhana: menghadirkan dimsum premium dan dessert berkualitas dalam satu tempat yang nyaman dan modern. Dari dapur kecil dengan eksperimen rasa, hingga berkembang menjadi kedai dengan konsep yang lebih matang, setiap langkah kami dipenuhi dedikasi untuk menjaga kualitas dan konsistensi.
+                                </p>
+                                <p>
+                                    Kami percaya bahwa makanan bukan hanya tentang rasa, tetapi juga tentang pengalaman. Karena itu, setiap dimsum dan dessert diracik dari bahan pilihan, disajikan fresh, dan dikemas dengan sentuhan premium.
+                                </p>
+                                <p>
+                                    Perjalanan ini masih panjang, dan kami akan terus berinovasi untuk menghadirkan rasa terbaik di setiap momen Anda.
+                                </p>
+                            </div>
                         </div>
                         <div className="relative aspect-video rounded-[3rem] overflow-hidden border-2 border-primary/10">
                             <Image
-                                src="/images/oridimsum.jpg"
-                                alt="Dapur Pertama Kami"
+                                src="/images/sampul.png"
+                                alt="Perjalanan GoldenCrumbs"
                                 fill
                                 className="object-cover"
                             />

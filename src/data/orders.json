@@ -142,5 +142,106 @@
     ],
     "total": 180000,
     "date": "16/2/2026, 15.27.31"
+  },
+  {
+    "id": "DS-9582",
+    "customer": {
+      "name": "Helda Rizky Ramadhani",
+      "phone": "08583232424",
+      "address": "kampung dalem"
+    },
+    "items": [
+      {
+        "id": "6",
+        "name": "Dimsum Kuah Pedas",
+        "price": 20000,
+        "image": "/images/dimkuah.jpg",
+        "quantity": 1
+      },
+      {
+        "id": "12",
+        "name": "Brownies ChocoBerrie",
+        "price": 10000,
+        "image": "/images/brownies.jpg",
+        "quantity": 1
+      },
+      {
+        "id": "9",
+        "name": "Es Teh",
+        "price": 10000,
+        "image": "/images/esteh.jpg",
+        "quantity": 1
+      },
+      {
+        "id": "2",
+        "name": "Dimsum Keju Lumer",
+        "price": 20000,
+        "image": "/images/keju.jpg",
+        "quantity": 1
+      },
+      {
+        "id": "1",
+        "name": "Dimsum Original",
+        "price": 15000,
+        "image": "/images/orisaus.jpg",
+        "quantity": 1
+      }
+    ],
+    "total": 75000,
+    "date": "23/2/2026, 11.32.50"
+  },
+  {
+    "id": "DS-9618",
+    "customer": {
+      "name": "Helda Rizky Ramadhani",
+      "phone": "085853184933",
+      "address": "Rejomulyo"
+    },
+    "items": [
+      {
+        "id": "1",
+        "name": "Dimsum Original",
+        "price": 15000,
+        "image": "/images/orisaus.jpg",
+        "quantity": 1
+      },
+      {
+        "id": "2",
+        "name": "Dimsum Keju Lumer",
+        "price": 20000,
+        "image": "/images/keju.jpg",
+        "quantity": 1
+      },
+      {
+        "id": "5",
+        "name": "Dimsum Mozzarella",
+        "price": 25000,
+        "image": "/images/mozza.jpg",
+        "quantity": 1
+      },
+      {
+        "id": "7",
+        "name": "Air Mineral",
+        "price": 10000,
+        "image": "/images/air.jpg",
+        "quantity": 2
+      },
+      {
+        "id": "9",
+        "name": "Es Teh",
+        "price": 10000,
+        "image": "/images/esteh.jpg",
+        "quantity": 1
+      },
+      {
+        "id": "16",
+        "name": "Ice Cream",
+        "price": 25000,
+        "image": "/images/icecream.jpg",
+        "quantity": 1
+      }
+    ],
+    "total": 115000,
+    "date": "23/2/2026, 12.02.07"
   }
 ]

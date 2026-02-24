@@ -8,10 +8,10 @@ export default function Footer() {
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
                     <div className="col-span-1 md:col-span-1">
                         <Link href="/" className="text-3xl font-serif font-bold text-primary mb-6 block">
-                            dimsum<span className="text-accent">kediri</span>
+                            Golden<span className="text-accent">Crumbs</span>
                         </Link>
                         <p className="text-neutral/70 leading-relaxed mb-6">
-                            Menghadirkan kelezatan dimsum premium dengan sentuhan modern di jantung kota Kediri. Kualitas rasa yang tak terlupakan.
+                            Adalah destinasi dimsum kekinian dengan rasa premium dan kualitas terbaik. Dari dimsum lumer hingga dessert manis, kami menyajikan pengalaman rasa yang tak terlupakan.
                         </p>
                         <div className="flex space-x-4">
                             <a href="#" className="hover:text-primary transition-colors"><Instagram size={20} /></a>
@@ -44,7 +44,14 @@ export default function Footer() {
                         <ul className="space-y-4 text-neutral/70">
                             <li className="flex items-start gap-3">
                                 <MapPin className="text-primary shrink-0" size={20} />
-                                <span>Jl. Mayor Bismo No. 12, Kediri, Jawa Timur</span>
+                                <a
+                                    href="https://www.google.com/maps/search/Jalan+Panglima+Sudirman+Kelurahan+Ringin+Anom+Kota+Kediri"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="hover:text-primary transition-colors"
+                                >
+                                    Jalan Panglima Sudirman Kelurahan Ringin Anom Kota Kediri
+                                </a>
                             </li>
                             <li className="flex items-center gap-3">
                                 <Phone className="text-primary shrink-0" size={20} />
@@ -54,14 +61,14 @@ export default function Footer() {
                             </li>
                             <li className="flex items-center gap-3">
                                 <Mail className="text-primary shrink-0" size={20} />
-                                <span>halo@dimsunkediri.com</span>
+                                <span>halo@goldencrumbs.com</span>
                             </li>
                         </ul>
                     </div>
                 </div>
 
                 <div className="border-t border-neutral/10 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-neutral/40">
-                    <p>© 2026 dimsumkediri. All rights reserved.</p>
+                    <p>© 2026 GoldenCrumbs. All rights reserved.</p>
                     <div className="flex space-x-6 mt-4 md:mt-0">
                         <a href="#" className="hover:text-neutral/60">Privacy Policy</a>
                         <a href="#" className="hover:text-neutral/60">Terms of Service</a>

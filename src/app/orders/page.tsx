@@ -47,7 +47,7 @@ export default function OrdersPage() {
                         Pesanan <span className="text-primary italic">Saya</span>
                     </motion.h1>
                     <p className="text-lg text-dark/60 max-w-xl mx-auto">
-                        Kelola keranjang belanja Anda dan lacak riwayat pesanan Dimsum Kediri favorit Anda.
+                        Kelola keranjang belanja Anda dan lacak riwayat pesanan GoldenCrumbs favorit Anda.
                     </p>
                 </div>
             </section>

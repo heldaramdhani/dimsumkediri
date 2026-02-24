@@ -12,10 +12,10 @@ interface ProductCardProps {
     price: number;
     image: string;
     isBestSeller?: boolean;
-    tag?: string;
+    description?: string;
 }
 
-export default function ProductCard({ id, name, price, image, isBestSeller, tag }: ProductCardProps) {
+export default function ProductCard({ id, name, price, image, isBestSeller, description }: ProductCardProps) {
     const { addToCart, removeFromCart, getItemQuantity } = useCart();
     const quantity = getItemQuantity(id);
 
@@ -45,11 +45,6 @@ export default function ProductCard({ id, name, price, image, isBestSeller, tag 
                     </div>
                 )}
 
-                {tag && (
-                    <div className="absolute top-4 right-4 bg-secondary text-white px-3 py-1 rounded-full text-xs font-bold shadow-lg">
-                        {tag}
-                    </div>
-                )}
             </div>
 
             <div className="p-6">
@@ -61,14 +56,8 @@ export default function ProductCard({ id, name, price, image, isBestSeller, tag 
                         Rp {(price / 1000).toFixed(0)}k
                     </span>
                 </div>
-                <div className="flex items-center gap-1 text-accent mb-4">
-                    {[...Array(5)].map((_, i) => (
-                        <Star key={i} size={14} fill="currentColor" />
-                    ))}
-                    <span className="text-xs text-dark/40 ml-2">(48 reviews)</span>
-                </div>
-                <p className="text-dark/60 text-sm line-clamp-2 mb-6">
-                    Dimsum premium dengan bahan ayam pilihan dan topping melimpah. Lezat dan bergizi.
+                <p className="text-dark/60 text-sm mb-6">
+                    {description || "Dimsum premium dengan bahan ayam pilihan dan topping melimpah. Lezat dan bergizi."}
                 </p>
 
                 {/* Actions Section */}

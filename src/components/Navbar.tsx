@@ -46,7 +46,7 @@ export default function Navbar() {
                         animate={{ opacity: 1, x: 0 }}
                         className="text-2xl font-serif font-bold text-primary tracking-tight"
                     >
-                        dimsum<span className="text-secondary">kediri</span>
+                        Golden<span className="text-secondary">Crumbs</span>
                     </motion.span>
                 </Link>
 
